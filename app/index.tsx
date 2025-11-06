@@ -1,19 +1,17 @@
 
+import { Link } from "expo-router";
 import { Text, View , StyleSheet,TextInput, TouchableOpacity} from "react-native"
 
 
 const Index =() =>{
   return ( 
     <View style ={styles.parent}>
-   
   <Text style ={styles.text}> Welcome to my Login Page👋</Text>
-  <TextInput style={styles.ptext} placeholder="Please enter your name....."
-  /> <TextInput style={styles.ptext1} placeholder="Please enter your password"
-
-  />
+  <TextInput style={styles.ptext} placeholder="Please enter your name....." />
+   <TextInput style={styles.ptext1} placeholder="Please enter your password"/>
  
   <TouchableOpacity>
-     <Text style ={styles.text1}> Login</Text>
+     <Link href= {'/welcome'}style ={styles.text1}> Login</Link>
   </TouchableOpacity>
 
   </View>
@@ -26,10 +24,11 @@ const Index =() =>{
 const styles = StyleSheet.create ({
 
   parent:{
+    flex: 1,
+    marginTop: 50,
   
-   
-    
   },
+
   text: {
     color: 'blue',
     fontFamily: 'bold',
@@ -37,17 +36,14 @@ const styles = StyleSheet.create ({
     marginLeft: 10,
     marginTop: 160,
     alignSelf: 'center',
-
-    
-
   },
 
   ptext: {
     paddingLeft:40,
-    marginTop: 30, 
+    marginTop: 35, 
     borderWidth: 1,
     marginRight : 60,
-    marginLeft: 50,
+    marginLeft: 40,
     padding: 10,
     fontSize: 15,  
     borderRadius: 10,
@@ -56,10 +52,10 @@ const styles = StyleSheet.create ({
 
    ptext1: {
     paddingLeft:40,
-    marginTop: 30,
+    marginTop: 35,
     borderWidth: 1,
     marginRight : 60,
-    marginLeft: 50,
+    marginLeft: 40,
     padding: 10,
     fontSize: 15,  
     borderRadius: 10,
@@ -76,26 +72,14 @@ const styles = StyleSheet.create ({
     marginLeft: 150,
     padding: 6,
     marginRight :150,
-    marginTop: 23,
+    marginTop: 50,
     backgroundColor: 'violet',
-    marginBottom: 60,
+    marginBottom: 60, 
     
-   
-    
-
   },
-
-
-
-
-  
-
-  
-  
-
-  
-  
-
 
 });
 
+
+
+ 
