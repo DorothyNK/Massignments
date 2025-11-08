@@ -14,11 +14,13 @@ import { SafeAreaView } from "react-native-safe-area-context";
 const Index = () => {
   return (
     <SafeAreaView style={styles.parent}>
+      {/* scrollview */}
       <ScrollView
         keyboardShouldPersistTaps="handled"
         contentContainerStyle={{ paddingBottom: 300 }}
       >
         <View>
+          {/* welcome text */}
           <Text style={styles.text}>Welcome back!</Text>
 
           <Text style={styles.subtext}>
@@ -253,7 +255,7 @@ const styles = StyleSheet.create({
   account: {
     flexDirection: "row",
     justifyContent: "center",
-    alignContent: "center",
+    alignItems: "center",
     width: "100%",
     marginTop: 38,
   },
