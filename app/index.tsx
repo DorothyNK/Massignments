@@ -2,7 +2,6 @@
 import { Link } from "expo-router";
 import { Text, View , StyleSheet,TextInput, TouchableOpacity} from "react-native"
 
-
 const Index =() =>{
   return ( 
     <View style ={styles.parent}>

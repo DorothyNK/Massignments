@@ -57,7 +57,7 @@ const Index = () => {
         </TouchableOpacity>
 
         <TouchableOpacity style={styles.login}>
-          <Text style={styles.logintext}>Login</Text>
+           <Link href= {'/whatsaap'}style ={styles.logintext}>Login</Link>   
         </TouchableOpacity>
 
          <View style={styles.account}>
@@ -300,4 +300,4 @@ fp:{
 export default Index;
 
 
-
+ 
