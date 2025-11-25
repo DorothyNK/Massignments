@@ -1,11 +1,16 @@
+import { Link } from "expo-router";
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 const Home = () => {
   return (
-    <View>
-      <Text>Home</Text>
-    </View>
+    <SafeAreaView>
+      <View>
+        <Text>Home</Text>
+        <Link href={"/(details)/detail"}> Detaillssssss</Link>
+      </View>
+    </SafeAreaView>
   );
 };
 
