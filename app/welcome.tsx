@@ -1,4 +1,4 @@
-import { Link, router } from "expo-router";
+import { Link } from "expo-router";
 import React from "react";
 import {
   Image,
@@ -65,10 +65,7 @@ const Index = () => {
             <Text style={styles.facebooktext}>Continue with Facebook</Text>
           </TouchableOpacity>
 
-          <TouchableOpacity
-            onPress={() => router.push("/home")}
-            style={styles.login}
-          >
+          <TouchableOpacity style={styles.login}>
             <Text style={styles.logintext}>Login</Text>
           </TouchableOpacity>
 
