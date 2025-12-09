@@ -3,7 +3,7 @@ import React from "react";
 
 const DetailsLayout = () => {
   return (
-    <Stack>
+    <Stack screenOptions={{ headerShown: false }}>
       <Stack.Screen name="detail" />
     </Stack>
   );

@@ -3,6 +3,7 @@ import { chatList } from "@/data/chatlist";
 import Entypo from "@expo/vector-icons/Entypo";
 import EvilIcons from "@expo/vector-icons/EvilIcons";
 import Ionicons from "@expo/vector-icons/Ionicons";
+import { router } from "expo-router";
 import { StatusBar } from "expo-status-bar";
 import React from "react";
 import {
@@ -218,6 +219,14 @@ const Chats = () => {
               keyExtractor={(item) => item.id.toString()}
               renderItem={({ item }) => (
                 <TouchableOpacity
+                  onPress={() =>
+                    router.push({
+                      pathname: "/(details)/detail",
+                      params: {
+                        title: item.title,
+                      },
+                    })
+                  }
                   style={{
                     flexDirection: "row",
                     alignItems: "flex-start",
@@ -235,7 +244,7 @@ const Chats = () => {
                     }}
                   />
 
-                  <TouchableOpacity
+                  <View
                     style={{
                       marginTop: 15,
                       marginLeft: 10,
@@ -263,7 +272,7 @@ const Chats = () => {
                     >
                       {item.message}
                     </Text>
-                  </TouchableOpacity>
+                  </View>
                 </TouchableOpacity>
               )}
             />
