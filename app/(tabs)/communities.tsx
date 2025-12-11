@@ -18,24 +18,24 @@ type FruitData = {
 };
 
 const Communities = () => {
-  const [fruits, setFruits] = useState<FruitData[]>([]);
+  const [nutritionix, setNutritionix] = useState<nutritionixData[]>([]);
 
   const getSomeData = async () => {
     const response = await fetch("https://developer.nutritionix.com/");
     const data = await response.json();
     console.log(data);
-    setFruits(data);
+    setNutritionix(data);
   };
 
-  // console.log(fruits)
+  // console.log(nutritionix)
 
   getSomeData();
 
   return (
     <SafeAreaView>
       <FlatList
-        data={fruits}
-        keyExtractor={(fruits) => fruits.id.toString()}
+        data={nutritionix}
+        keyExtractor={(nutritionix) => nutritionix.id.toString()}
         renderItem={({ item }) => (
           <TouchableOpacity
             style={{
