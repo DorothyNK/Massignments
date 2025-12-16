@@ -224,6 +224,8 @@ const Chats = () => {
                       pathname: "/(details)/detail",
                       params: {
                         title: item.title,
+                        message: item.message,
+                        image: item.image,
                       },
                     })
                   }
@@ -234,7 +236,7 @@ const Chats = () => {
                   }}
                 >
                   <Image
-                    source={item.image}
+                    source={{ uri: item.image }}
                     style={{
                       width: 57,
                       height: 53,

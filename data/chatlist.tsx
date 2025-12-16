@@ -3,7 +3,7 @@ export const chatList = [
     id: 1,
     title: "NATIONAL BANK TAF'25",
     message: "Baaba Otiwaa: Thank you very much🤗 ",
-    image: require("../assets/images/dp1.jpg"),
+    image: "https://i.ytimg.com/vi/zEr-mm8OSGo/sddefault.jpg",
     isGroup: true,
   },
   {
