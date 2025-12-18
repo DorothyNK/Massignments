@@ -10,7 +10,7 @@ export const chatList = [
     id: 2,
     title: "Wonderful Ramseyer",
     message: "VP Felicia: You miss you loose oo ❗️❗️❗️",
-    image: require("../assets/images/dp3.jpg"),
+    image: "https://www.ipsy.com/blog/glitter-nail-designs.jpg",
     isGroup: true,
   },
 
@@ -18,7 +18,7 @@ export const chatList = [
     id: 3,
     title: "Makarios",
     message: "Any3miiiii m3ni ok33??",
-    image: require("../assets/images/dp7.jpg"),
+    image: "https://graphicriver.net/girly-in-graphics",
     isGroup: false,
   },
   {
@@ -26,21 +26,21 @@ export const chatList = [
     title: "Taf Ghana Nashnal & Rgnl",
     message:
       "Emmanuel: Please do well to join us for J-reach on wednesday at 7:30am🙏",
-    image: require("../assets/images/dp6.jpg"),
+    image:"https://www.postermywall.com/index.php/art/template/e35943ed1739e8debced87e63401ccaf/bible-verses-design-template",
     isGroup: true,
   },
   {
     id: 5,
     title: "DCIT LEVEL 400",
     message: "Val: DCIT 312 results on mis ❗️❗️❗️",
-    image: require("../assets/images/dp8.jpg"),
+    image:"https://bestofbharat.com/product/be-strong-and-courageous-printable-joshua-19-scripture-verse-print-bible-verse-wall-art-christian-wall-art-christian-print-tribal-arrow/?srsltid=AfmBOor66nl1CIOYrkeGezOugqNH_yfuHrfU1idzsjIaFBFT_K_chRTR",
     isGroup: true,
   },
   {
     id: 6,
     title: "Deron odei",
     message: "How are youuuuu?",
-    image: require("../assets/images/dp9.jpg"),
+    image:"https://cvhomemag.com/the-gentlemans-room-creating-a-masculine-aesthetic/",
     isGroup: false,
   },
   {
@@ -48,21 +48,21 @@ export const chatList = [
     title: "XCESS GRACEE",
     message:
       "GodsPraise: Hey Fam👋,Kindly join today's prayer meeting via the link above",
-    image: require("../assets/images/dp4.jpg"),
+    image:"https://www.pexels.com/search/aesthetic%20manly/",
     isGroup: true,
   },
   {
     id: 8,
     title: "Revised Ladies Caucus",
     message: "Sta Abii: The monday is elegantly sophisticated❤️",
-    image: require("../assets/images/dp10.jpg"),
+    image:"https://unsplash.com/s/photos/aesthetic-wallpaper",
     isGroup: true,
   },
   {
     id: 9,
     title: "Claudiaaaa✨",
     message: "Happy birthdayyyy girllll",
-    image: require("../assets/images/dp2.png"),
+    image:"https://www.itakeyou.co.uk/20-serene-blue-aesthetic-preppy-wallpapers-7/",
     isGroup: false,
   },
 
@@ -70,14 +70,14 @@ export const chatList = [
     id: 10,
     title: "Kurtiz Agyeman",
     message: "God bless you Kurtizz🙏",
-    image: require("../assets/images/dp11.png"),
+    image:"https://www.freepik.com/free-photos-vectors/christmas-beautiful/47",
     isGroup: false,
   },
   {
     id: 11,
     title: "Man Doro",
     message: "You are a baadddd girl🦋",
-    image: require("../assets/images/dp5.png"),
+    image:"https://ar.pinterest.com/pin/27584616462563371/",
     isGroup: false,
   },
 ];

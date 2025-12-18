@@ -236,7 +236,7 @@ const Chats = () => {
                   }}
                 >
                   <Image
-                    source={{ uri: item.image }}
+                    source={{ uri:item.image}}
                     style={{
                       width: 57,
                       height: 53,
